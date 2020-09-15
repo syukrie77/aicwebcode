@@ -541,7 +541,7 @@ body {
 .post-content-image {
     margin: 4vw 0;
     position: relative;
-    width: 75vw;
+    width:75vw;
     min-width: 100%;
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
@@ -613,7 +613,7 @@ body {
 .post-content-body pre {
     overflow-x: auto;
     margin: 1.5em 0 3em;
-    padding: 20px;
+    padding: 70px;
     max-width: 100%;
     border: color(var(--color-base) l(-10%)) 1px solid;
     color: var(--color-bg);
@@ -719,3 +719,21 @@ body {
 .page-template .post-content-body h3 {
     text-align: center;
 }
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,.video-container object,.video-container embed {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+
+

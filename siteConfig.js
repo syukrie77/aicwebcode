@@ -1,9 +1,9 @@
 module.exports = {
-  name: 'Kampus AIC',
+  name: 'Areta College',
   shortName: 'AIC',
-  description: 'Lulus Kuliah Langsung Kerja! Standar, Belum Lulus Kuliah Langsung Kerja! Biasa, Baru Kuliah dapat Penghasilan! Ini baru luar biasa, Kamu Mau?',
-  url: 'https://aretacollege.com', // Domain of your site without prefix!
+  description: 'Kampus IT dan Bisnis dengan Metode Belajar 90% Praktek 10% Teori Full Praktek Langsung Kerja dan buka Bisnis',
+  url: 'https://www.aretacollege.com', // Domain of your site without prefix!
   prefix: '/',
-  author: 'syukrie77',
-  twitter: 'syukrie77'
+  author: 'admin@aretacollege.com',
+  twitter: 'aretacollege'
 }

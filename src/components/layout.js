@@ -76,7 +76,16 @@ const Layout = props => {
               >
                 Daftar Online
               </Link>
-            </div>
+              <Link
+                to={`https://syukrie.aretacollege.com`}
+                title="Blog"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Blog
+              </Link>
+
+	  </div>
           </div>
         </div>
       </header>

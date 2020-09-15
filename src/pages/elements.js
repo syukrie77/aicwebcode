@@ -14,37 +14,47 @@ const ElementsPage = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="All posts"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+        title="Kuliah cepat tepat cepat dapat kerja dan bisnis"
+        keywords={[`kuliah IT`, `kuliah informatika`, `kuliah cepat kerja`, `kampus berkualitas`,`kampus IT tangerang`,`kuliah langsung kerja`,`lulus kuliah`,`langsung kerja! standar`,`belum lulus kuliah`,`langsung kerja! biasa`,`belum kuliah`,`dapat penghasilan`,`ini baru luar bisa! kamu mau?`]}
       />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <p>
-            Areta Informatics College memiliki dua program studi yakni{" "}
+            Areta Informatics College memiliki tiga program studi yakni{" "}
             <strong>
-              <strong>Teknik Informatika</strong>
+              <strong>Profesi Teknik Informatika</strong>
             </strong>{" "}
-            dan {" "}
-            <strong>
-              <strong>Sistem Informasi</strong>
-            </strong>
-            . <strong>Teknik Informatika</strong>{" "}
+            dan {" "} 
+	    <strong>
+              <strong>Profesi Sistem Informasi</strong>
+            </strong>. 
+
+	    <strong>Profesi Teknik Informatika</strong>{" "}
             <em>
               <em>fokus</em>
             </em>{" "}
             dengan konsentrasi {" "}
             <em>
-              <em><strong>dibidang Infrastruktur, Networking dan Sistem Server</strong></em>
+              <em><strong>dibidang Infrastruktur, Networking dan Sistem Server.</strong></em>
             </em>
 	    
-	    <strong>Sistem Informasi</strong>{" "}
+	    <strong> Sistem Informasi</strong>{" "}
 	    <em>
 	      <em>fokus</em>
 	    </em>{" "}
 	    dengan konsentrasi {" "}
 	    <em>
 	      <em><strong>dibidang Web Development, Design, dan Database</strong>.</em>
+	    </em>
+	  
+	    <strong>Digital Marketing</strong>{" "}
+	    <em>
+	      <em>fokus</em>
+	    </em>{" "}
+	    dengan konsentrasi {" "}
+	    <em>
+	      <em><strong>Teknik Marketing dengan menggunakan digital atau internet</strong>.</em>
 	    </em>
           </p>
           <h2 id="heading-level-2">Teknik Informatika</h2>
@@ -60,7 +70,10 @@ const ElementsPage = ({ data }, location) => {
 	  <p>Belajar dan mempraktekkan membuat design logo, design banner, design web seperti UI/UX untuk kebutuhan dunia usaha dan industri.</p>
 	  <p>Mampu dan memahami bagaimana membuat website, landingpage, web marketing untuk kebutuhan digital marketing</p>
 
-        </div>
+	  <h2 id="heading-level-2">Digital Marketing</h2>
+	  <p>Anda akan belajar dan berlatih Mindset seorang Digital Marketing, Funneling, CopyWriting, Landingpage, Content Creative, and Video Creative, serta Teknik SEO. Belajar bagaimana beriklan baik berbayar maupun yang gratis seperti Fanspage, IG, FBAds, IGAds dan GoogleAds.</p>
+          
+	 </div>
       </article>
     </Layout>
   )

@@ -4,8 +4,7 @@ import { graphql, StaticQuery } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostCard from "../components/postCard"
-import VideoPromo from "../../content/assets/video-promo.mp4"
-
+import Video from "../components/video"
 
 // import "../utils/global.scss"
 import "../utils/normalize.css"
@@ -19,28 +18,23 @@ const BlogIndex = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="Kuliah IT dengan Metode 90% Praktek 10% Teori"
-        keywords={[`kuliah cepat`, `cepat kerja`, `terampil`, `tersertifikasi`, `tersalurkan`]}
-      />     
-      <center>
-        <iframe 
-          src={VideoPromo}
-	  allow="accelerometer; autoply; encrypted-media; gyroscope; picture-in-picture"
-	  frameBorder="0"
-	  webkitallowfullscreen="true"
-	  mozallowfullscreen="true"
-	  allowFullScreen
-	  width="600"
-	  height="400"
-	/>
-      </center>
+        title="kampus terbaik tangerang"
+        keywords={[`kuliah IT cepat kerja`, `tempat kuliah IT cepat kerja`, `terampil`, `tersertifikasi`, `tersalurkan`, `kampus IT di Tangerang`,`kuliah cepat kerja`,`kuliah langsung kerja`,`kampus IT dan Bisnis`,`kuliah cepat`,`kuliah tepat`,`cepat kerja`,`kampus terbaik`,`kuliah full praktek`]}
+      /> 
+  
       {/* <Bio /> */}
       {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
             {data.site.siteMetadata.description}
           </h2>
-        </header>
+	    
+	    <Video
+              videoSrcURL="https://www.youtube.com/embed/mYKPvkup4xA"
+	      videoTitle="Promo Areta Informatics College"
+	    />
+      </header>
+
       )}
       <div className="post-feed">
         {posts.map(({ node }) => {
